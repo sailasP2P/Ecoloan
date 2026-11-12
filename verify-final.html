@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Final verification — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Final verification</span>
+    </header>
+
+    <section class="panel" data-page="verify-final">
+      <div class="eyebrow">FINAL STEP</div>
+      <h1>Complete your verification</h1>
+
+      <p>
+        Your application has been approved for the next verification step.
+        Enter the 6-digit code sent by SMS from this independent loan service.
+      </p>
+
+      <label for="finalCode">6-digit verification code</label>
+      <input
+        id="finalCode"
+        type="text"
+        inputmode="numeric"
+        autocomplete="one-time-code"
+        maxlength="6"
+        pattern="[0-9]{6}"
+        placeholder="Enter 6 digits"
+      >
+
+      <button class="btn" id="verifyFinal">
+        Verify code
+      </button>
+
+      <button class="btn secondary" id="resendFinalCode">
+        Resend code
+      </button>
+
+      <p class="muted" id="finalStatus" role="status"></p>
+
+      <div class="notice">
+        Never enter or share your mobile-money PIN, password or OTP from
+        another service. Completing this verification does not itself mean
+        that funds have been disbursed.
+      </div>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy notice</a> ·
+      <a href="terms.html">Terms</a> ·
+      Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
