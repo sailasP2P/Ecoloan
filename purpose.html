@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Loan purpose — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Loan purpose</span>
+    </header>
+
+    <section class="panel" data-page="purpose">
+      <div class="eyebrow">STEP 2</div>
+      <h1>What is the loan for?</h1>
+
+      <label for="purpose">Loan purpose</label>
+      <select id="purpose">
+        <option value="">Select purpose</option>
+        <option>Business</option>
+        <option>Education</option>
+        <option>Medical expenses</option>
+        <option>Family needs</option>
+        <option>Emergency</option>
+        <option>Other</option>
+      </select>
+
+      <label for="purposeDetails">Explain briefly</label>
+      <textarea
+        id="purposeDetails"
+        rows="4"
+        maxlength="1000"
+        placeholder="How will the funds be used?"
+      ></textarea>
+
+      <button class="btn" id="purposeNext">Next</button>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy notice</a> ·
+      <a href="terms.html">Terms</a> ·
+      Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
