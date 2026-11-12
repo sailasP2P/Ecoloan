@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Notice — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Privacy</span>
+    </header>
+
+    <section class="panel">
+      <div class="eyebrow">YOUR INFORMATION</div>
+      <h1>Privacy notice</h1>
+
+      <p>
+        This notice explains how the independent loan service may collect
+        and use personal information when you apply for a loan.
+      </p>
+
+      <h2>1. Information we collect</h2>
+      <p>
+        We may collect your name, phone number, email address, requested
+        loan amount, repayment period and stated loan purpose.
+      </p>
+
+      <h2>2. How we use your information</h2>
+      <p>
+        Information may be used to receive and review applications, verify
+        that an application was submitted by you, contact you about your
+        application and maintain required service records.
+      </p>
+
+      <h2>3. Sharing information</h2>
+      <p>
+        Information should only be shared with authorized staff and
+        service providers where necessary to operate the service, protect
+        it, or meet legal obligations. Access should be limited and
+        protected.
+      </p>
+
+      <h2>4. Security</h2>
+      <p>
+        Reasonable technical and organizational safeguards must be used
+        to protect personal information. No online system can guarantee
+        absolute security.
+      </p>
+
+      <h2>5. Your rights</h2>
+      <p>
+        Depending on applicable law, you may have rights to request access
+        to, correction of, or deletion of your personal information, and
+        to raise a concern about how it is handled.
+      </p>
+
+      <h2>6. Contact the service</h2>
+      <p>
+        Before accepting real applications, the operator must add its
+        registered legal name, physical or postal address, privacy contact
+        details, retention periods and a working process for privacy
+        requests to this notice.
+      </p>
+
+      <div class="notice">
+        This is a starter template, not a completed legal privacy policy.
+        The service operator must review and complete it for compliance
+        with applicable Kenyan data-protection requirements before
+        collecting real customer information.
+      </div>
+
+      <a class="btn secondary" href="index.html">Back to home</a>
+    </section>
+
+    <footer>
+      <a href="terms.html">Terms</a> · Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
