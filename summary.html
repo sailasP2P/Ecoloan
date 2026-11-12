@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Application summary — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Application summary</span>
+    </header>
+
+    <section class="panel" data-page="summary">
+      <div class="eyebrow">STEP 4</div>
+      <h1>Review your application</h1>
+      <p>Please check your details before submitting.</p>
+
+      <div class="summary-list">
+        <div>
+          <span>Loan amount</span>
+          <strong id="summaryAmount">—</strong>
+        </div>
+        <div>
+          <span>Repayment period</span>
+          <strong id="summaryTerm">—</strong>
+        </div>
+        <div>
+          <span>Loan purpose</span>
+          <strong id="summaryPurpose">—</strong>
+        </div>
+        <div>
+          <span>Purpose details</span>
+          <strong id="summaryPurposeDetails">—</strong>
+        </div>
+        <div>
+          <span>Applicant name</span>
+          <strong id="summaryName">—</strong>
+        </div>
+        <div>
+          <span>Email</span>
+          <strong id="summaryEmail">—</strong>
+        </div>
+        <div>
+          <span>Phone number</span>
+          <strong id="summaryPhone">—</strong>
+        </div>
+      </div>
+
+      <label class="check-row">
+        <input type="checkbox" id="agreeTerms">
+        <span>
+          I confirm that the information I provided is accurate and I have
+          read the privacy notice and terms.
+        </span>
+      </label>
+
+      <p class="muted">
+        Submitting an application does not guarantee approval or a loan.
+        Review any interest, fees and repayment terms before accepting an offer.
+      </p>
+
+      <button class="btn" id="submitApplication">
+        Submit application
+      </button>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy notice</a> ·
+      <a href="terms.html">Terms</a> ·
+      Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
