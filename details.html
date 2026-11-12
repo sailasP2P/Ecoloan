@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Personal details — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Personal details</span>
+    </header>
+
+    <section class="panel" data-page="details">
+      <div class="eyebrow">STEP 3</div>
+      <h1>Your contact details</h1>
+      <p>Enter details for this independent service only.</p>
+
+      <label for="firstName">First name</label>
+      <input id="firstName" autocomplete="given-name">
+
+      <label for="lastName">Last name</label>
+      <input id="lastName" autocomplete="family-name">
+
+      <label for="email">Email address</label>
+      <input id="email" type="email" autocomplete="email">
+
+      <label for="phone">Phone number (international format)</label>
+      <input
+        id="phone"
+        type="tel"
+        placeholder="+2547XXXXXXXX"
+        autocomplete="tel"
+      >
+
+      <p class="muted">
+        Your phone number will receive verification messages from this loan
+        service. Never enter EcoCash or other third-party codes here.
+      </p>
+
+      <button class="btn" id="detailsNext">Next</button>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy notice</a> ·
+      <a href="terms.html">Terms</a> ·
+      Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
