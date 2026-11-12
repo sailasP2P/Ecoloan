@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Verify application — Independent Loan Service</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <a class="brand" href="index.html">
+        Independent Loan Service <span>INDEPENDENT</span>
+      </a>
+      <span class="step">Application verification</span>
+    </header>
+
+    <section class="panel" data-page="verify-application">
+      <div class="eyebrow">STEP 5</div>
+      <h1>Verify your application</h1>
+
+      <p>
+        Enter the 4-digit verification code sent by SMS to the phone number
+        you provided.
+      </p>
+
+      <label for="applicationCode">4-digit verification code</label>
+      <input
+        id="applicationCode"
+        type="text"
+        inputmode="numeric"
+        autocomplete="one-time-code"
+        maxlength="4"
+        pattern="[0-9]{4}"
+        placeholder="Enter 4 digits"
+      >
+
+      <button class="btn" id="verifyApplication">
+        Verify application
+      </button>
+
+      <p class="muted" id="verificationStatus" role="status"></p>
+
+      <p class="muted">
+        This code is only for this independent loan application. Never share
+        an OTP belonging to your mobile-money account or another service.
+      </p>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy notice</a> ·
+      <a href="terms.html">Terms</a> ·
+      Independent loan service
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
